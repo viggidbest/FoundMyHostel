@@ -1,0 +1,62 @@
+.nav{
+    justify-content: center;
+    padding: 2rem;
+    
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5e5eff;
+    padding: 2rem;
+    color: white;
+    
+   
+}
+.check-button{
+    margin-right: 1rem;
+}
+button {
+    background-color: white;
+    color: #7d5fff;
+    border: 2px solid #7d5fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(125,95,255,0.2);
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+  }
+  This will give you a white button with a purple border
+  
+  
+  
+.thank-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label,
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 10px;
+    min-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
